@@ -11,6 +11,23 @@
     "generate": "nuxt generate",
     "test": "jest"
   },
+  "config": {
+    "validate-commit-msg": {
+      "types": ["feat", "fix", "docs", "style", "refactor", "perf", "test", "build", "ci", "chore", "revert"],
+      "scope": {
+        "required": false,
+        "allowed": ["*"],
+        "validate": false,
+        "multiple": false
+      },
+      "warnOnFail": false,
+      "maxSubjectLength": 100,
+      "subjectPattern": ".+",
+      "subjectPatternErrorMsg": "subject does not match subject pattern!",
+      "helpMessage": "",
+      "autoFix": false
+    }
+  }
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
@@ -23,6 +40,7 @@
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
+    "validate-commit-msg": "^2.14.0",
     "vue-jest": "^4.0.0-0"
   }
 }
