@@ -13,10 +13,24 @@
   },
   "config": {
     "validate-commit-msg": {
-      "types": ["feat", "fix", "docs", "style", "refactor", "perf", "test", "build", "ci", "chore", "revert"],
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "build",
+        "ci",
+        "chore",
+        "revert"
+      ],
       "scope": {
         "required": false,
-        "allowed": ["*"],
+        "allowed": [
+          "*"
+        ],
         "validate": false,
         "multiple": false
       },
@@ -42,6 +56,7 @@
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-jest": "^24.1.0",
+    "ghooks": "^2.0.4",
     "jest": "^24.1.0",
     "validate-commit-msg": "^2.14.0",
     "vue-jest": "^4.0.0-0"
