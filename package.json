@@ -26,6 +26,9 @@
       "subjectPatternErrorMsg": "subject does not match subject pattern!",
       "helpMessage": "",
       "autoFix": false
+    },
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
     }
   },
   "dependencies": {
