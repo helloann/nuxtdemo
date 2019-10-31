@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <p class="main-con">这是内容{{$route.params.blog}} dev1.0 增加7</p>
+    <p class="main-con">这是内容{{$route.params.blog}} dev1.0 增加71</p>
   </div>
 </template>
 
